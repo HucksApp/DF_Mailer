@@ -9,8 +9,11 @@ This sofware uses a local host served web page to receive needed information abo
 You must have python3 installed
 ```
 $ ./install.sh
+```
+```
 $./api.py
 ```
+
 
 Data Fields              |        Description
 -------------------------|---------------------------
