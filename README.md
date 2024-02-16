@@ -1,8 +1,10 @@
 # Smtp  Local Host Html email sender 📮
 
 ## Description
-This sofware uses a local host served web page to receive needed information about the ***smtp login credentials, info of sender and receivers info*
-**This was for a simple tutorial on sending emails with python and flask [https://www.codementor.io/@hucksapp/2354vbued4]
+This sofware uses a local host served web page to receive needed information about the ***smtp login credentials, info of sender and receivers info***
+
+
+This was for a simple tutorial on sending emails with python and flask [https://www.codementor.io/@hucksapp/2354vbued4]
 
 
 # Usage🛠
