@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous"></script>
+    
+    <title>DEMON FURRY E-SENDER</title>
+</head>
+<body>
+    <div class="content">
+        <h1 class="heading">
+            DEMON FURRY E-SENDER
+        </h1>
+        <form class="form" action="" method="post">
+            <div class="smtp_svr">
+                <input type="text"  placeholder="SMTP SERVER " name="smtp_svr" id="smtp_svr">
+                <input type="text"  placeholder="PORT" name="port" id="port">
+                <input type="text"  placeholder="SMTP SERVER USERNAME OR EMAIL " name="smtp_svr_usrn" id="smtp_svr_usrn">
+                <input type="password"  placeholder="SMTP SERVER PASSWORD " name="smtp_svr_password" id="smtp_svr_password">
+            </div>
+            <div class="from">
+                <input type="text"  placeholder="FROM NAME" name="frm_name" id="frm_name">
+             <input type="text"  placeholder="FROM EMAIL" name="frm_email" id="frm_email">
+
+            </div>
+            
+            <div class="to">
+                <input  type="text" placeholder="TO " name="to" id="to">
+                <input type="file" placeholder="upload targets emails text file " id="to_file" name="myfile">
+            </div>
+            <input  type="text" placeholder="REPLY TO " name="reply_to" id="reply_to">
+            <input type="text" placeholder="SUBJECT" name="subject" id="subject">
+            <div class="txt_type">
+                <select  name="" id="html">
+                    <option value="1">HTML MAIL</option>
+                    <option value="0">TEXT MAIL</option>
+                </select>
+            </div>
+            <textarea value="" name="txt" placeholder="TEXT" id="txt" cols="30" rows="10"></textarea>
+            <div class="button">
+                <button id="send" type="submit">SEND MAIL</button>
+            </div>
+        </form>
+
+        <div class="feedback">
+            <div class="feedback_console" id="feedback_console">
+                feed back **************
+            </div>
+           
+        </div>
+        
+    </div>
+    <script src="{{ url_for('static', filename='utils.js') }}"></script>
+    <script src="{{ url_for('static', filename='index.js') }}"></script>
+</body>
+</html>

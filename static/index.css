@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
+
+
+body{
+    border: 0;
+    margin: 0, auto;
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Merriweather';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: 	#FFFAFA;
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+}
+
+
+.content{
+    width: 50%;
+    padding-left: 5%;
+    border: none;
+    padding-right: 5%;
+    height: 90%;
+    background-color: rgb(185,153,108)	;
+    box-shadow: 10px 10px 8px #888888;
+}
+
+.form{
+   
+}
+
+.heading{
+    color: #FFF;
+    width: 100%;
+    margin: 0, auto;
+    text-align: center;
+    padding:  2vh 0;
+    font-weight: bolder;
+}
+#send:disabled{
+    cursor: not-allowed;
+}
+
+input{
+    margin-bottom: 3%;
+    width: 90%;
+    height: 5vh;
+    padding: 1%;
+    border: none;
+    background-color: rgba(210,189,160,0.9);
+    color: #231503;
+    font-size: 1.2em;
+}
+
+textarea{
+    padding: 1%;
+    border: none;
+    height: 50vh;
+    background-color: rgba(210,189,160,0.9);
+    width: 90%;
+ 
+}
+select{
+    background-color: rgba(210,189,160,0.9);
+    font-weight: bold;
+    font-family: inherit;
+    padding: 2%;
+    margin-bottom: 3%;
+    border: none;
+    color: #dfdfdf;
+}
+
+
+.to,.from{
+    display: flex;
+    max-width: inherit;
+}
+#to,#frm_name{
+    margin-right: 2%;
+}
+
+.button{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+button{
+   
+    padding: 3%;
+    margin:4%;
+    background-color:rgb(119,93,57);
+    color: #FFFAFA;
+    font-weight: bolder;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 10px 10px 8px rgb(119,93,57);
+}
+
+button:focus{
+    box-shadow: none;
+    transition:all 1;
+}
+
+.feedback{
+width: 100%;
+margin: 0 auto;
+text-align: start;
+}
+
+
+.feedback_console{
+width: 90%;
+background-color: rgba(210,189,160,0.9);
+margin-bottom: 4%;
+font-size: 0.8em;
+color: #FFFAFA;
+padding: 5%;
+
+
+}
+
+
+
+select:hover{
+    cursor: pointer;
+}
+
+button:hover{
+   cursor: pointer;
+   background-color: rgba(119,93,57,0.5);
+}
+select:focus{
+    outline: none;
+}
+
+input:focus, textarea:focus{
+    outline: none;
+    box-shadow: 12px 12px 10px rgb(119,93,57);
+    transition:all 0.3s ;
+}
+
+::placeholder{
+    color: rgba(86,86,86,0.4);
+    font-weight: bold;
+}
+
+::-webkit-file-upload-button {
+    background-color: rgba(210,189,160,0.9);
+    border: none;
+    color: rgba(86,86,86,0.4);
+  }
+  ::-webkit-file-upload-button:hover,input[type="file"]{
+    cursor: pointer;
+  } 
