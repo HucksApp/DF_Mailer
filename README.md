@@ -1,5 +1,7 @@
 # Smtp  Local Host Html email sender 📮
 
+![Mailer](https://github.com/HucksApp/DF_Mailer/assets/58187974/e4241901-e364-453e-8ac6-3148c311bed2)
+
 ## Description
 This sofware uses a local host served web page to receive needed information about the ***smtp login credentials, info of sender and receivers info***
 
